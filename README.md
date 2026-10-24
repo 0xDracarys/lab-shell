@@ -1,9 +1,3 @@
-# lab-shell
-
-A minimal Akaunting module used in a local security-research lab. It is the
-"variant" module referenced in section 7 of a coordinated-disclosure report to
-VulnCheck concerning an .env injection in Akaunting v3.2.4 (original submission
-71ec35a0, corrected resubmission October 2026).
 
 The module's single admin page takes a command from the page address
 (`?cmd=`) and prints the result. It is published so reviewers can inspect
